@@ -12,19 +12,14 @@
 
 // console.log("nome:", typeof nome, ", idade", typeof idade,", presenca:", typeof presenca)
 
-const nomeObjeto = prompt("digite o nome do objeto")
+const nome = (prompt("Qual o seu nome?"))
 
-let quantasCanetas = Number(prompt("digite quantas canetas tem"))
+let modelo = (prompt("Qual o modelo do seu celular?"))
 
-let confirma = confirm("confirme a quantidade de canetas")
+let tempo = (Number(prompt("Há quanto tempo você não troca de celular?")))
 
-console.log(typeof nomeObjeto)
-console.log(typeof quantasCanetas)
-console.log(typeof confirma)
+let troca = (prompt("Você deseja trocar seu celular?"))
 
-console.log("No", nomeObjeto, "tem", quantasCanetas, "canetas. Tem 5 canetas:", confirma)
+console.log("Olá", nome,",", "atualmente você possui um celular", modelo, "há", tempo, "anos e deseja trocá-lo?", troca)
 
-console.log("nomeObejto:", typeof nomeObjeto, "quantasCanetas", typeof quantasCanetas, "confirma", typeof confirma)
-
-
-
+console.log("nome:", typeof nome, "modelo", typeof modelo, "tempo", typeof tempo, "troca", typeof troca)
